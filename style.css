@@ -1,0 +1,14 @@
+body{
+    background:url(img/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
+    font-family: 'Palanquin', sans-serif;
+}
+.font{
+    font-family: 'Palanquin', sans-serif;
+}
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .clickable {
+    cursor: pointer;
+  }
