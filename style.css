@@ -58,3 +58,20 @@ body{
   background: #dd4b39;
   color: white;
 }
+<!-- for sm -->
+<nav class="row m-0 d-sm-block d-md-none d-lg-none">
+    <div class="col-sm-6 p-0 text-center">
+        <h5 class="text-warning">Start Bootstrap</h5>
+    </div>
+    <div class="col-sm-6 p-0 text-center">
+        <ul class="list-inline text-white">
+            <li class="list-inline-item clickable"><a class="link-unstyled"
+                    href="#"><small>DOWNLOADS</small></a></li>
+            <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>FEATURES</small></a>
+            </li>
+            <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>CONTACT</small></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- for sm -->
