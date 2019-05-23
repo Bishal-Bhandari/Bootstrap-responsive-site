@@ -21,12 +21,31 @@
 </head>
 
 <body class="font">
-    <header class=" container mt-3">
+    <header class=" container mt-3 d-none d-md-block d-lg-block">
+        <nav class="row m-0 ">
+            <div class="col-sm-4 pl-5">
+                <h5 class="text-warning pl-5">Start Bootstrap</h5>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4  pl-5">
+                <ul class="list-inline text-white">
+                    <li class="list-inline-item clickable"><a class="link-unstyled"
+                            href="#"><small>DOWNLOADS</small></a></li>
+                    <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>FEATURES</small></a>
+                    </li>
+                    <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>CONTACT</small></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </header>
+        <!-- for sm -->
+        <header class=" container mt-3  d-sm-block d-md-none d-lg-none">
         <nav class="row m-0">
-            <div class="col-sm-6 text-center p-0">
+            <div class="col-sm-6 p-0 text-center">
                 <h5 class="text-warning">Start Bootstrap</h5>
             </div>
-            <div class="col-sm-6 text-center p-0">
+            <div class="col-sm-6 p-0 text-center">
                 <ul class="list-inline text-white">
                     <li class="list-inline-item clickable"><a class="link-unstyled"
                             href="#"><small>DOWNLOADS</small></a></li>
@@ -38,19 +57,20 @@
             </div>
         </nav>
     </header>
+        <!-- for sm -->
     <main class="container font p-5 mb-2">
         <section class="row pr-5 pl-5 mb-4">
             <!-- <div class="col-sm-2 mr-5"></div> -->
             <div class="col-sm-6 text-white pl-5 pr-0 pt-5 mb-5  d-none d-md-block d-lg-block">
-                <h1 class="pb-5 mt-4">New Age is an app landing page that will help you beautifully showcase your new
+                <h1 class="pb-5 mt-4 pl-4">New Age is an app landing page that will help you beautifully showcase your new
                     mobile app, or
                     anything else!</h1>
-                <a class="link-unstyled border border-2 rounded-pill pl-5 pr-5 pt-1 pb-1 " href="#"><small>START NOW FOR
+                <a class="link-unstyled border border-2 rounded-pill pl-5 pr-5 pt-1 pb-1 ml-4" href="#"><small>START NOW FOR
                         FREE</small></a>
             </div>
             <!-- visible on sm -->
             <div class="col-sm-6 text-white pt-5 mb-5 pr-0 pl-0 d-sm-block d-md-none d-lg-none text-center">
-                <h3 class="pb-5 mt-4">New Age is an app landing page that will help you beautifully showcase your new
+                <h3 class="display-6 pb-5 mt-4">New Age is an app landing page that will help you beautifully showcase your new
                     mobile app, or
                     anything else!</h3>
                 <a class="link-unstyled border border-2 rounded-pill pl-5 pr-5 pt-1 pb-1 " href="#"><small>START NOW FOR
@@ -65,9 +85,9 @@
         </section>
     </main>
     <section class="container-fluid m-0 p-5 bg-warning">
-        <div class="row p-5 mt-5">
+        <div class="row p-5 mt-3">
             <div class="col-sm-12 text-center text-black">
-                <h1>Discover what all buzz is about!</h1>
+                <h1 class="display-4">Discover what all the<br> buzz is about!</h1>
                 <p>Our app is available on any mobile device! Download now to get started!</p>
                 <img src="img/google.png" alt="play store" width="170"><img src="img/app.png" alt="app store"
                     width="170">
@@ -82,7 +102,7 @@
         <div class="container pl-5">
             <div class="row px-5">
                 <div class="col-sm-4 d-none d-md-block d-lg-block">
-                    <img class="float-right" src="img/iphone_6_plus_white_port.png" alt="Img" width="70%">
+                    <img class="float-right" src="img/iphone_6_plus_white_port.png" alt="Img" width="75%">
                 </div>
                 <!-- visible on sm -->
                 <div class="col-sm-4 d-sm-block d-md-none d-lg-none text-center">
@@ -142,9 +162,9 @@
         <div class="row p-5">
             <div class="col-sm-12 text-center p-5">
                 <h1>We <i class="fas fa-heart text-danger"></i> new friends!</h1>
-                <h1 class="fab fa-twitter"></h1>
-                <h1 class="fab fa-facebook-f"></h1>
-                <h1 class="fab fa-google-plus-g"></h1>
+                <a href="#"><h1 class="fab fa-twitter"></h1></a>
+                <a href="#"><h1 class="fab fa-facebook-f"></h1></a>
+                <a href="#"><h1 class="fab fa-google-plus-g"></h1></a>
             </div>
         </div>
     </section>
@@ -153,8 +173,8 @@
             <div class="col-sm-12 text-muted text-center">
                 <p class="mb-0">&copy;Your Website 2019. All Rights Reserved.</p>
                 <ul class="list-inline ">
-                    <li class="list-inline-item clickable"><a class="link-unstyled"
-                            href="#"><small>Privacy</small></a></li>
+                    <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>Privacy</small></a>
+                    </li>
                     <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>Terms</small></a>
                     </li>
                     <li class="list-inline-item clickable"><a class="link-unstyled" href="#"><small>FAQ</small></a>
