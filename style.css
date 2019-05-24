@@ -1,6 +1,6 @@
 body{
     background:url(img/bg-pattern.png),-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
-    font-family: 'Palanquin', sans-serif;
+    /* font-family: 'Palanquin', sans-serif; */
 }
 .font{
     font-family: 'Palanquin', sans-serif;
@@ -12,3 +12,62 @@ body{
   .clickable {
     cursor: pointer;
   }
+  .image {
+    position:relative;
+    width:100%;
+    height:100%;
+}
+.image img {
+    width:100%;
+    vertical-align:top;
+}
+.image::before{
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity:1;
+}
+.text-top {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.fab {
+  padding: 10px;
+  font-size: 39px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 84%;
+}
+.fa-facebook-f{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google-plus-g{
+  background: #dd4b39;
+  color: white;
+}
+/* .iphone{
+  height: 361px;
+  width: 203px;
+  background-size: 203px !important;
+  background: url(img/iphone_6_plus_white_port.jpg);
+  background-position-y: 1px;
+  top: 10%;
+  left: 29%;
+
+}
+.i-img{
+  background-position-x: 0px;
+} */
