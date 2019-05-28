@@ -61,7 +61,7 @@ a>small:hover{
     background: rgb(0,0,0);
 }
 .row-img-mobile{
-    height: 650px;
+    height: 600px;
     background-image: url(img/bg-cta.jpg);
     background-size: cover;
     background-position: center;
