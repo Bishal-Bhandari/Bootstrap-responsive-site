@@ -28,13 +28,13 @@ body{
     background:rgba(0,0,0,0.6);
 }
 .text-top {
-    left: 15%;
-    top: 35%;
+    left: 17%;
+    top: 36%;
     position: absolute;
 }
 .text-top-mobile {
-    left: 1%;
-    top: 20%;
+    left: 10%;
+    top: 40%;
     position: absolute;
 }
 .fab {
@@ -61,10 +61,10 @@ a>small:hover{
     background: rgb(0,0,0);
 }
 .row-img-mobile{
+    height: 650px;
     background-image: url(img/bg-cta.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 48%;
     position: relative;
 }
 
