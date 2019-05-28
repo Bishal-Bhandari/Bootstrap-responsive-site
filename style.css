@@ -11,21 +11,14 @@ body{
   .clickable {
     cursor: pointer;
   }
-  .image {
-    position:relative;
-    width:100%;
-    height:100%;
-}
+ 
 .image img {
     width:100%;
     vertical-align:top;
     background-size: cover;
     background-position: center;
 }
-.image{
-    height: 60%;
-    overflow: hidden;
-}
+
 .image::before{
     content:'\A';
     position:absolute;
@@ -35,10 +28,14 @@ body{
     background:rgba(0,0,0,0.6);
 }
 .text-top {
+    left: 15%;
+    top: 35%;
     position: absolute;
-    top: 49%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+}
+.text-top-mobile {
+    left: 1%;
+    top: 20%;
+    position: absolute;
 }
 .fab {
     padding: 15px;
@@ -70,13 +67,4 @@ a>small:hover{
     padding-top: 48%;
     position: relative;
 }
-.text-top {
-    left: 60%;
-    top: 50%;
-    position: absolute;
-}
-.text-top-mobile {
-    left: 17%;
-    top: 25%;
-    position: absolute;
-}
+
